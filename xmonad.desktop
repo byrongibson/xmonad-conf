@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=xmonad
+Icon=/usr/share/unity-greeter/custom_xmonad_badge.png
+#Exec=/home/byron/.xmonad/xmonad.start  #path to your init script
+#Exec=/home/byron/.cabal/bin/xmonad
+Exec=xmonad
+NoDisplay=true
+#Terminal=false
+#Categories=
+#StartupNotify=false
+X-GNOME-WMName=Xmonad
+X-GNOME-Autostart-Phase=WindowManager
+X-GNOME-Provides=windowmanager
+X-GNOME-Autostart-Notify=true
+
+
+# http://www.haskell.org/haskellwiki/Xmonad/Using_xmonad_in_Unity_2D
+# http://www.haskell.org/haskellwiki/Xmonad/Using_xmonad_in_Gnome#Starting_GNOME_with_xmonad
+# http://kmels.net/posts/how-to/install-xmonad-ubuntu-12.04.html

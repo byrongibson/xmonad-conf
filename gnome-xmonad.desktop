@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ubuntu 2D with XMonad
+Comment=Tiling Window Manager
+Icon=/usr/share/unity-greeter/custom_xmonad_badge.png
+Exec=gnome-session --session=xmonad
+#Exec=gnome-session-xmonad
+TryExec=/usr/bin/gnome-session
+#TryExec=gnome-session
+Type=XSession
+#Type=Application
