@@ -3,6 +3,7 @@
  
 import XMonad
 import XMonad.Config.Gnome
+--import XMonad.Config.Desktop
 import XMonad.Hooks.ManageDocks
 import XMonad.Util.EZConfig
 import XMonad.Layout.Gaps
