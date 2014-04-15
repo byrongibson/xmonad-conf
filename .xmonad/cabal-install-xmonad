@@ -1,0 +1,419 @@
+byron@ubuntu:~
+> cabal install xmonad --global
+Resolving dependencies...
+Configuring data-default-class-0.0.1...
+Building data-default-class-0.0.1...
+Preprocessing library data-default-class-0.0.1...
+[1 of 1] Compiling Data.Default.Class ( Data/Default/Class.hs, dist/build/Data/Default/Class.o )
+In-place registering data-default-class-0.0.1...
+cabal: /usr/local/share/doc: permission denied
+Failed to install data-default-class-0.0.1
+Configuring dlist-0.7.0.1...
+Building dlist-0.7.0.1...
+Preprocessing library dlist-0.7.0.1...
+[1 of 1] Compiling Data.DList       ( Data/DList.hs, dist/build/Data/DList.o )
+In-place registering dlist-0.7.0.1...
+cabal: /usr/local/share/doc: permission denied
+Failed to install dlist-0.7.0.1
+Configuring extensible-exceptions-0.1.1.4...
+Building extensible-exceptions-0.1.1.4...
+Preprocessing library extensible-exceptions-0.1.1.4...
+[1 of 1] Compiling Control.Exception.Extensible ( Control/Exception/Extensible.hs, dist/build/Control/Exception/Extensible.o )
+In-place registering extensible-exceptions-0.1.1.4...
+cabal: /usr/local/share/doc: permission denied
+Failed to install extensible-exceptions-0.1.1.4
+Configuring utf8-string-0.3.7...
+Building utf8-string-0.3.7...
+Preprocessing library utf8-string-0.3.7...
+[1 of 7] Compiling Codec.Binary.UTF8.String ( Codec/Binary/UTF8/String.hs, dist/build/Codec/Binary/UTF8/String.o )
+[2 of 7] Compiling Codec.Binary.UTF8.Generic ( Codec/Binary/UTF8/Generic.hs, dist/build/Codec/Binary/UTF8/Generic.o )
+[3 of 7] Compiling Data.String.UTF8 ( Data/String/UTF8.hs, dist/build/Data/String/UTF8.o )
+[4 of 7] Compiling System.IO.UTF8   ( System/IO/UTF8.hs, dist/build/System/IO/UTF8.o )
+[5 of 7] Compiling System.Environment.UTF8 ( System/Environment/UTF8.hs, dist/build/System/Environment/UTF8.o )
+[6 of 7] Compiling Data.ByteString.UTF8 ( Data/ByteString/UTF8.hs, dist/build/Data/ByteString/UTF8.o )
+[7 of 7] Compiling Data.ByteString.Lazy.UTF8 ( Data/ByteString/Lazy/UTF8.hs, dist/build/Data/ByteString/Lazy/UTF8.o )
+In-place registering utf8-string-0.3.7...
+cabal: /usr/local/share/doc: permission denied
+Failed to install utf8-string-0.3.7
+cabal: Error: some packages failed to install:
+X11-1.6.1.1 depends on dlist-0.7.0.1 which failed to install.
+data-default-0.5.3 depends on dlist-0.7.0.1 which failed to install.
+data-default-class-0.0.1 failed during the final install step. The exception
+was:
+ExitFailure 1
+data-default-instances-base-0.0.1 depends on data-default-class-0.0.1 which
+failed to install.
+data-default-instances-containers-0.0.1 depends on data-default-class-0.0.1
+which failed to install.
+data-default-instances-dlist-0.0.1 depends on dlist-0.7.0.1 which failed to
+install.
+data-default-instances-old-locale-0.0.1 depends on data-default-class-0.0.1
+which failed to install.
+dlist-0.7.0.1 failed during the final install step. The exception was:
+ExitFailure 1
+extensible-exceptions-0.1.1.4 failed during the final install step. The
+exception was:
+ExitFailure 1
+utf8-string-0.3.7 failed during the final install step. The exception was:
+ExitFailure 1
+xmonad-0.11 depends on utf8-string-0.3.7 which failed to install.
+
+byron@ubuntu:~
+> sudo cabal install xmonad --global
+Resolving dependencies...
+Configuring data-default-class-0.0.1...
+Building data-default-class-0.0.1...
+Preprocessing library data-default-class-0.0.1...
+[1 of 1] Compiling Data.Default.Class ( Data/Default/Class.hs, dist/build/Data/Default/Class.o )
+In-place registering data-default-class-0.0.1...
+Installing library in /usr/local/lib/data-default-class-0.0.1/ghc-7.6.3
+Registering data-default-class-0.0.1...
+Installed data-default-class-0.0.1
+Configuring dlist-0.7.0.1...
+Building dlist-0.7.0.1...
+Preprocessing library dlist-0.7.0.1...
+[1 of 1] Compiling Data.DList       ( Data/DList.hs, dist/build/Data/DList.o )
+In-place registering dlist-0.7.0.1...
+Installing library in /usr/local/lib/dlist-0.7.0.1/ghc-7.6.3
+Registering dlist-0.7.0.1...
+Installed dlist-0.7.0.1
+Configuring extensible-exceptions-0.1.1.4...
+Building extensible-exceptions-0.1.1.4...
+Preprocessing library extensible-exceptions-0.1.1.4...
+[1 of 1] Compiling Control.Exception.Extensible ( Control/Exception/Extensible.hs, dist/build/Control/Exception/Extensible.o )
+In-place registering extensible-exceptions-0.1.1.4...
+Installing library in /usr/local/lib/extensible-exceptions-0.1.1.4/ghc-7.6.3
+Registering extensible-exceptions-0.1.1.4...
+Installed extensible-exceptions-0.1.1.4
+Configuring utf8-string-0.3.7...
+Building utf8-string-0.3.7...
+Preprocessing library utf8-string-0.3.7...
+[1 of 7] Compiling Codec.Binary.UTF8.String ( Codec/Binary/UTF8/String.hs, dist/build/Codec/Binary/UTF8/String.o )
+[2 of 7] Compiling Codec.Binary.UTF8.Generic ( Codec/Binary/UTF8/Generic.hs, dist/build/Codec/Binary/UTF8/Generic.o )
+[3 of 7] Compiling Data.String.UTF8 ( Data/String/UTF8.hs, dist/build/Data/String/UTF8.o )
+[4 of 7] Compiling System.IO.UTF8   ( System/IO/UTF8.hs, dist/build/System/IO/UTF8.o )
+[5 of 7] Compiling System.Environment.UTF8 ( System/Environment/UTF8.hs, dist/build/System/Environment/UTF8.o )
+[6 of 7] Compiling Data.ByteString.UTF8 ( Data/ByteString/UTF8.hs, dist/build/Data/ByteString/UTF8.o )
+[7 of 7] Compiling Data.ByteString.Lazy.UTF8 ( Data/ByteString/Lazy/UTF8.hs, dist/build/Data/ByteString/Lazy/UTF8.o )
+In-place registering utf8-string-0.3.7...
+Installing library in /usr/local/lib/utf8-string-0.3.7/ghc-7.6.3
+Registering utf8-string-0.3.7...
+Installed utf8-string-0.3.7
+Configuring data-default-instances-base-0.0.1...
+Building data-default-instances-base-0.0.1...
+Preprocessing library data-default-instances-base-0.0.1...
+[1 of 1] Compiling Data.Default.Instances.Base ( Data/Default/Instances/Base.hs, dist/build/Data/Default/Instances/Base.o )
+In-place registering data-default-instances-base-0.0.1...
+Installing library in
+/usr/local/lib/data-default-instances-base-0.0.1/ghc-7.6.3
+Registering data-default-instances-base-0.0.1...
+Installed data-default-instances-base-0.0.1
+Configuring data-default-instances-containers-0.0.1...
+Building data-default-instances-containers-0.0.1...
+Preprocessing library data-default-instances-containers-0.0.1...
+[1 of 1] Compiling Data.Default.Instances.Containers ( Data/Default/Instances/Containers.hs, dist/build/Data/Default/Instances/Containers.o )
+In-place registering data-default-instances-containers-0.0.1...
+Installing library in
+/usr/local/lib/data-default-instances-containers-0.0.1/ghc-7.6.3
+Registering data-default-instances-containers-0.0.1...
+Installed data-default-instances-containers-0.0.1
+Configuring data-default-instances-old-locale-0.0.1...
+Building data-default-instances-old-locale-0.0.1...
+Preprocessing library data-default-instances-old-locale-0.0.1...
+[1 of 1] Compiling Data.Default.Instances.OldLocale ( Data/Default/Instances/OldLocale.hs, dist/build/Data/Default/Instances/OldLocale.o )
+In-place registering data-default-instances-old-locale-0.0.1...
+Installing library in
+/usr/local/lib/data-default-instances-old-locale-0.0.1/ghc-7.6.3
+Registering data-default-instances-old-locale-0.0.1...
+Installed data-default-instances-old-locale-0.0.1
+Configuring data-default-instances-dlist-0.0.1...
+Building data-default-instances-dlist-0.0.1...
+Preprocessing library data-default-instances-dlist-0.0.1...
+[1 of 1] Compiling Data.Default.Instances.DList ( Data/Default/Instances/DList.hs, dist/build/Data/Default/Instances/DList.o )
+In-place registering data-default-instances-dlist-0.0.1...
+Installing library in
+/usr/local/lib/data-default-instances-dlist-0.0.1/ghc-7.6.3
+Registering data-default-instances-dlist-0.0.1...
+Installed data-default-instances-dlist-0.0.1
+Configuring data-default-0.5.3...
+Building data-default-0.5.3...
+Preprocessing library data-default-0.5.3...
+[1 of 1] Compiling Data.Default     ( Data/Default.hs, dist/build/Data/Default.o )
+In-place registering data-default-0.5.3...
+Installing library in /usr/local/lib/data-default-0.5.3/ghc-7.6.3
+Registering data-default-0.5.3...
+Installed data-default-0.5.3
+Configuring X11-1.6.1.1...
+configure: WARNING: unrecognized options: --with-compiler, --with-gcc
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking whether to build Xinerama... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking X11/extensions/Xinerama.h usability... yes
+checking X11/extensions/Xinerama.h presence... yes
+checking for X11/extensions/Xinerama.h... yes
+checking X11/extensions/Xrandr.h usability... yes
+checking X11/extensions/Xrandr.h presence... yes
+checking for X11/extensions/Xrandr.h... yes
+checking whether to build XScreenSaver... yes
+checking X11/extensions/scrnsaver.h usability... no
+checking X11/extensions/scrnsaver.h presence... no
+checking for X11/extensions/scrnsaver.h... no
+WARNING: XScreenSaver headers not found. Building without XScreenSaver support
+checking whether to include X.org keysyms... yes
+checking X11/keysym.h usability... yes
+checking X11/keysym.h presence... yes
+checking for X11/keysym.h... yes
+checking X11/DECkeysym.h usability... yes
+checking X11/DECkeysym.h presence... yes
+checking for X11/DECkeysym.h... yes
+checking X11/Sunkeysym.h usability... yes
+checking X11/Sunkeysym.h presence... yes
+checking for X11/Sunkeysym.h... yes
+checking X11/ap_keysym.h usability... yes
+checking X11/ap_keysym.h presence... yes
+checking for X11/ap_keysym.h... yes
+checking X11/HPkeysym.h usability... yes
+checking X11/HPkeysym.h presence... yes
+checking for X11/HPkeysym.h... yes
+checking X11/XF86keysym.h usability... yes
+checking X11/XF86keysym.h presence... yes
+checking for X11/XF86keysym.h... yes
+checking X11/keysymdef.h usability... yes
+checking X11/keysymdef.h presence... yes
+checking for X11/keysymdef.h... yes
+checking X11/cursorfont.h usability... yes
+checking X11/cursorfont.h presence... yes
+checking for X11/cursorfont.h... yes
+configure: creating ./config.status
+config.status: creating config.mk
+config.status: creating X11.buildinfo
+config.status: creating include/HsX11Config.h
+config.status: creating include/X11_extras_config.h
+configure: WARNING: unrecognized options: --with-compiler, --with-gcc
+Building X11-1.6.1.1...
+Preprocessing library X11-1.6.1.1...
+[ 1 of 28] Compiling Graphics.X11.XScreenSaver ( dist/build/Graphics/X11/XScreenSaver.hs, dist/build/Graphics/X11/XScreenSaver.o )
+[ 2 of 28] Compiling Graphics.X11.Xlib.Internal ( dist/build/Graphics/X11/Xlib/Internal.hs, dist/build/Graphics/X11/Xlib/Internal.o )
+[ 3 of 28] Compiling Graphics.X11.Types ( dist/build/Graphics/X11/Types.hs, dist/build/Graphics/X11/Types.o )
+[ 4 of 28] Compiling Graphics.X11.Xlib.Types ( dist/build/Graphics/X11/Xlib/Types.hs, dist/build/Graphics/X11/Xlib/Types.o )
+[ 5 of 28] Compiling Graphics.X11.Xlib.Display ( Graphics/X11/Xlib/Display.hs, dist/build/Graphics/X11/Xlib/Display.o )
+[ 6 of 28] Compiling Graphics.X11.Xlib.Event ( dist/build/Graphics/X11/Xlib/Event.hs, dist/build/Graphics/X11/Xlib/Event.o )
+[ 7 of 28] Compiling Graphics.X11.Xlib.Screen ( Graphics/X11/Xlib/Screen.hs, dist/build/Graphics/X11/Xlib/Screen.o )
+[ 8 of 28] Compiling Graphics.X11.Xlib.Window ( Graphics/X11/Xlib/Window.hs, dist/build/Graphics/X11/Xlib/Window.o )
+[ 9 of 28] Compiling Graphics.X11.Xlib.Context ( Graphics/X11/Xlib/Context.hs, dist/build/Graphics/X11/Xlib/Context.o )
+[10 of 28] Compiling Graphics.X11.Xlib.Color ( Graphics/X11/Xlib/Color.hs, dist/build/Graphics/X11/Xlib/Color.o )
+[11 of 28] Compiling Graphics.X11.Xlib.Font ( dist/build/Graphics/X11/Xlib/Font.hs, dist/build/Graphics/X11/Xlib/Font.o )
+[12 of 28] Compiling Graphics.X11.Xlib.Cursor ( dist/build/Graphics/X11/Xlib/Cursor.hs, dist/build/Graphics/X11/Xlib/Cursor.o )
+[13 of 28] Compiling Graphics.X11.Xlib.Atom ( dist/build/Graphics/X11/Xlib/Atom.hs, dist/build/Graphics/X11/Xlib/Atom.o )
+[14 of 28] Compiling Graphics.X11.Xlib.Region ( Graphics/X11/Xlib/Region.hs, dist/build/Graphics/X11/Xlib/Region.o )
+[15 of 28] Compiling Graphics.X11.Xlib.Image ( Graphics/X11/Xlib/Image.hs, dist/build/Graphics/X11/Xlib/Image.o )
+[16 of 28] Compiling Graphics.X11.Xlib.Misc ( dist/build/Graphics/X11/Xlib/Misc.hs, dist/build/Graphics/X11/Xlib/Misc.o )
+
+Graphics/X11/Xlib/Misc.hsc:698:10: Warning:
+    Orphan instance: instance Default VisualInfo
+[17 of 28] Compiling Graphics.X11.Xrandr ( dist/build/Graphics/X11/Xrandr.hs, dist/build/Graphics/X11/Xrandr.o )
+[18 of 28] Compiling Graphics.X11.ExtraTypes.AP ( dist/build/Graphics/X11/ExtraTypes/AP.hs, dist/build/Graphics/X11/ExtraTypes/AP.o )
+[19 of 28] Compiling Graphics.X11.ExtraTypes.DEC ( dist/build/Graphics/X11/ExtraTypes/DEC.hs, dist/build/Graphics/X11/ExtraTypes/DEC.o )
+[20 of 28] Compiling Graphics.X11.ExtraTypes.HP ( dist/build/Graphics/X11/ExtraTypes/HP.hs, dist/build/Graphics/X11/ExtraTypes/HP.o )
+[21 of 28] Compiling Graphics.X11.ExtraTypes.Sun ( dist/build/Graphics/X11/ExtraTypes/Sun.hs, dist/build/Graphics/X11/ExtraTypes/Sun.o )
+[22 of 28] Compiling Graphics.X11.ExtraTypes.XF86 ( dist/build/Graphics/X11/ExtraTypes/XF86.hs, dist/build/Graphics/X11/ExtraTypes/XF86.o )
+[23 of 28] Compiling Graphics.X11.ExtraTypes.XorgDefault ( dist/build/Graphics/X11/ExtraTypes/XorgDefault.hs, dist/build/Graphics/X11/ExtraTypes/XorgDefault.o )
+[24 of 28] Compiling Graphics.X11.ExtraTypes ( Graphics/X11/ExtraTypes.hs, dist/build/Graphics/X11/ExtraTypes.o )
+[25 of 28] Compiling Graphics.X11.Xlib ( Graphics/X11/Xlib.hs, dist/build/Graphics/X11/Xlib.o )
+[26 of 28] Compiling Graphics.X11.Xlib.Extras ( dist/build/Graphics/X11/Xlib/Extras.hs, dist/build/Graphics/X11/Xlib/Extras.o )
+[27 of 28] Compiling Graphics.X11.Xinerama ( dist/build/Graphics/X11/Xinerama.hs, dist/build/Graphics/X11/Xinerama.o )
+[28 of 28] Compiling Graphics.X11     ( Graphics/X11.hs, dist/build/Graphics/X11.o )
+In-place registering X11-1.6.1.1...
+Installing library in /usr/local/lib/X11-1.6.1.1/ghc-7.6.3
+Registering X11-1.6.1.1...
+Installed X11-1.6.1.1
+Configuring xmonad-0.11...
+Building xmonad-0.11...
+Preprocessing executable 'xmonad' for xmonad-0.11...
+[ 1 of 10] Compiling XMonad.StackSet  ( XMonad/StackSet.hs, dist/build/xmonad/xmonad-tmp/XMonad/StackSet.o )
+[ 2 of 10] Compiling XMonad.Core      ( XMonad/Core.hs, dist/build/xmonad/xmonad-tmp/XMonad/Core.o )
+
+XMonad/Core.hs:34:1: Warning:
+    Module `Prelude' does not export `catch'
+[ 3 of 10] Compiling XMonad.Layout    ( XMonad/Layout.hs, dist/build/xmonad/xmonad-tmp/XMonad/Layout.o )
+[ 4 of 10] Compiling XMonad.Operations ( XMonad/Operations.hs, dist/build/xmonad/xmonad-tmp/XMonad/Operations.o )
+[ 5 of 10] Compiling XMonad.ManageHook ( XMonad/ManageHook.hs, dist/build/xmonad/xmonad-tmp/XMonad/ManageHook.o )
+
+XMonad/ManageHook.hs:21:1: Warning:
+    Module `Prelude' does not export `catch'
+[ 6 of 10] Compiling XMonad.Config    ( XMonad/Config.hs, dist/build/xmonad/xmonad-tmp/XMonad/Config.o )
+[ 7 of 10] Compiling XMonad.Main      ( dist/build/xmonad/xmonad-tmp/XMonad/Main.hs, dist/build/xmonad/xmonad-tmp/XMonad/Main.o )
+[ 8 of 10] Compiling Paths_xmonad     ( dist/build/autogen/Paths_xmonad.hs, dist/build/xmonad/xmonad-tmp/Paths_xmonad.o )
+[ 9 of 10] Compiling XMonad           ( XMonad.hs, dist/build/xmonad/xmonad-tmp/XMonad.o )
+[10 of 10] Compiling Main             ( Main.hs, dist/build/xmonad/xmonad-tmp/Main.o )
+Linking dist/build/xmonad/xmonad ...
+Preprocessing library xmonad-0.11...
+[1 of 8] Compiling XMonad.StackSet  ( XMonad/StackSet.hs, dist/build/XMonad/StackSet.o )
+[2 of 8] Compiling XMonad.Core      ( XMonad/Core.hs, dist/build/XMonad/Core.o )
+
+XMonad/Core.hs:34:1: Warning:
+    Module `Prelude' does not export `catch'
+[3 of 8] Compiling XMonad.Layout    ( XMonad/Layout.hs, dist/build/XMonad/Layout.o )
+[4 of 8] Compiling XMonad.Operations ( XMonad/Operations.hs, dist/build/XMonad/Operations.o )
+[5 of 8] Compiling XMonad.ManageHook ( XMonad/ManageHook.hs, dist/build/XMonad/ManageHook.o )
+
+XMonad/ManageHook.hs:21:1: Warning:
+    Module `Prelude' does not export `catch'
+[6 of 8] Compiling XMonad.Config    ( XMonad/Config.hs, dist/build/XMonad/Config.o )
+[7 of 8] Compiling XMonad.Main      ( dist/build/XMonad/Main.hs, dist/build/XMonad/Main.o )
+[8 of 8] Compiling XMonad           ( XMonad.hs, dist/build/XMonad.o )
+In-place registering xmonad-0.11...
+Installing library in /usr/local/lib/xmonad-0.11/ghc-7.6.3
+Installing executable(s) in /usr/local/bin
+Registering xmonad-0.11...
+Installed xmonad-0.11
+
+
+/usr/bin/ghc-pkg
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/HSX11-1.6.1.1.o
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/include
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/libHSX11-1.6.1.1.a
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/ExtraTypes
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/ExtraTypes.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Types.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/XScreenSaver.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xinerama.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xrandr.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/ExtraTypes/AP.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/ExtraTypes/DEC.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/ExtraTypes/HP.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/ExtraTypes/Sun.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/ExtraTypes/XF86.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/ExtraTypes/XorgDefault.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Atom.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Color.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Context.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Cursor.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Display.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Event.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Extras.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Font.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Image.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Internal.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Misc.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Region.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Screen.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Types.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/Graphics/X11/Xlib/Window.hi
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/include/HsAllKeysyms.h
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/include/HsXlib.h
+/usr/local/lib/X11-1.6.1.1/ghc-7.6.3/include/XlibExtras.h
+/usr/local/lib/data-default-0.5.3/ghc-7.6.3
+/usr/local/lib/data-default-0.5.3/ghc-7.6.3/Data
+/usr/local/lib/data-default-0.5.3/ghc-7.6.3/HSdata-default-0.5.3.o
+/usr/local/lib/data-default-0.5.3/ghc-7.6.3/libHSdata-default-0.5.3.a
+/usr/local/lib/data-default-0.5.3/ghc-7.6.3/Data/Default.hi
+/usr/local/lib/data-default-class-0.0.1/ghc-7.6.3
+/usr/local/lib/data-default-class-0.0.1/ghc-7.6.3/Data
+/usr/local/lib/data-default-class-0.0.1/ghc-7.6.3/HSdata-default-class-0.0.1.o
+/usr/local/lib/data-default-class-0.0.1/ghc-7.6.3/libHSdata-default-class-0.0.1.a
+/usr/local/lib/data-default-class-0.0.1/ghc-7.6.3/Data/Default
+/usr/local/lib/data-default-class-0.0.1/ghc-7.6.3/Data/Default/Class.hi
+/usr/local/lib/data-default-instances-base-0.0.1/ghc-7.6.3
+/usr/local/lib/data-default-instances-base-0.0.1/ghc-7.6.3/Data
+/usr/local/lib/data-default-instances-base-0.0.1/ghc-7.6.3/HSdata-default-instances-base-0.0.1.o
+/usr/local/lib/data-default-instances-base-0.0.1/ghc-7.6.3/libHSdata-default-instances-base-0.0.1.a
+/usr/local/lib/data-default-instances-base-0.0.1/ghc-7.6.3/Data/Default
+/usr/local/lib/data-default-instances-base-0.0.1/ghc-7.6.3/Data/Default/Instances
+/usr/local/lib/data-default-instances-base-0.0.1/ghc-7.6.3/Data/Default/Instances/Base.hi
+/usr/local/lib/data-default-instances-containers-0.0.1/ghc-7.6.3
+/usr/local/lib/data-default-instances-containers-0.0.1/ghc-7.6.3/Data
+/usr/local/lib/data-default-instances-containers-0.0.1/ghc-7.6.3/HSdata-default-instances-containers-0.0.1.o
+/usr/local/lib/data-default-instances-containers-0.0.1/ghc-7.6.3/libHSdata-default-instances-containers-0.0.1.a
+/usr/local/lib/data-default-instances-containers-0.0.1/ghc-7.6.3/Data/Default
+/usr/local/lib/data-default-instances-containers-0.0.1/ghc-7.6.3/Data/Default/Instances
+/usr/local/lib/data-default-instances-containers-0.0.1/ghc-7.6.3/Data/Default/Instances/Containers.hi
+/usr/local/lib/data-default-instances-dlist-0.0.1/ghc-7.6.3
+/usr/local/lib/data-default-instances-dlist-0.0.1/ghc-7.6.3/Data
+/usr/local/lib/data-default-instances-dlist-0.0.1/ghc-7.6.3/HSdata-default-instances-dlist-0.0.1.o
+/usr/local/lib/data-default-instances-dlist-0.0.1/ghc-7.6.3/libHSdata-default-instances-dlist-0.0.1.a
+/usr/local/lib/data-default-instances-dlist-0.0.1/ghc-7.6.3/Data/Default
+/usr/local/lib/data-default-instances-dlist-0.0.1/ghc-7.6.3/Data/Default/Instances
+/usr/local/lib/data-default-instances-dlist-0.0.1/ghc-7.6.3/Data/Default/Instances/DList.hi
+/usr/local/lib/data-default-instances-old-locale-0.0.1/ghc-7.6.3
+/usr/local/lib/data-default-instances-old-locale-0.0.1/ghc-7.6.3/Data
+/usr/local/lib/data-default-instances-old-locale-0.0.1/ghc-7.6.3/HSdata-default-instances-old-locale-0.0.1.o
+/usr/local/lib/data-default-instances-old-locale-0.0.1/ghc-7.6.3/libHSdata-default-instances-old-locale-0.0.1.a
+/usr/local/lib/data-default-instances-old-locale-0.0.1/ghc-7.6.3/Data/Default
+/usr/local/lib/data-default-instances-old-locale-0.0.1/ghc-7.6.3/Data/Default/Instances
+/usr/local/lib/data-default-instances-old-locale-0.0.1/ghc-7.6.3/Data/Default/Instances/OldLocale.hi
+/usr/local/lib/dlist-0.7.0.1/ghc-7.6.3
+/usr/local/lib/dlist-0.7.0.1/ghc-7.6.3/Data
+/usr/local/lib/dlist-0.7.0.1/ghc-7.6.3/HSdlist-0.7.0.1.o
+/usr/local/lib/dlist-0.7.0.1/ghc-7.6.3/libHSdlist-0.7.0.1.a
+/usr/local/lib/dlist-0.7.0.1/ghc-7.6.3/Data/DList.hi
+/usr/local/lib/extensible-exceptions-0.1.1.4/ghc-7.6.3
+/usr/local/lib/extensible-exceptions-0.1.1.4/ghc-7.6.3/Control
+/usr/local/lib/extensible-exceptions-0.1.1.4/ghc-7.6.3/HSextensible-exceptions-0.1.1.4.o
+/usr/local/lib/extensible-exceptions-0.1.1.4/ghc-7.6.3/libHSextensible-exceptions-0.1.1.4.a
+/usr/local/lib/extensible-exceptions-0.1.1.4/ghc-7.6.3/Control/Exception
+/usr/local/lib/extensible-exceptions-0.1.1.4/ghc-7.6.3/Control/Exception/Extensible.hi
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Codec
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Data
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/HSutf8-string-0.3.7.o
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/System
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/libHSutf8-string-0.3.7.a
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Codec/Binary
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Codec/Binary/UTF8
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Codec/Binary/UTF8/Generic.hi
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Codec/Binary/UTF8/String.hi
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Data/ByteString
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Data/String
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Data/ByteString/Lazy
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Data/ByteString/UTF8.hi
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Data/ByteString/Lazy/UTF8.hi
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/Data/String/UTF8.hi
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/System/Environment
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/System/IO
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/System/Environment/UTF8.hi
+/usr/local/lib/utf8-string-0.3.7/ghc-7.6.3/System/IO/UTF8.hi
+/usr/local/lib/xmonad-0.11/ghc-7.6.3
+/usr/local/lib/xmonad-0.11/ghc-7.6.3/HSxmonad-0.11.o
+/usr/local/lib/xmonad-0.11/ghc-7.6.3/XMonad
+/usr/local/lib/xmonad-0.11/ghc-7.6.3/XMonad.hi
+/usr/local/lib/xmonad-0.11/ghc-7.6.3/libHSxmonad-0.11.a
+/usr/local/lib/xmonad-0.11/ghc-7.6.3/XMonad/Config.hi
+/usr/local/lib/xmonad-0.11/ghc-7.6.3/XMonad/Core.hi
+/usr/local/lib/xmonad-0.11/ghc-7.6.3/XMonad/Layout.hi
+/usr/local/lib/xmonad-0.11/ghc-7.6.3/XMonad/Main.hi
+/usr/local/lib/xmonad-0.11/ghc-7.6.3/XMonad/ManageHook.hi
+/usr/local/lib/xmonad-0.11/ghc-7.6.3/XMonad/Operations.hi
+/usr/local/lib/xmonad-0.11/ghc-7.6.3/XMonad/StackSet.hi
