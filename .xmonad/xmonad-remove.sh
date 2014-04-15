@@ -1,0 +1,1 @@
+/home/byron/bin/scripts/install/haskell/xmonad-remove.sh
