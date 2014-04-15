@@ -1,1 +1,3 @@
+-- start keyring
+
 exec xmonad
