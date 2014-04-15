@@ -29,4 +29,4 @@ main = xmonad $ gnomeConfig
   , focusFollowsMouse = False
   }
 
-`additionalKeysP` [ ("M-S-q", spawn "gnome-session-quit --power-off") ]
+--`additionalKeysP` [ ("M-S-q", spawn "gnome-session-quit --power-off") ]

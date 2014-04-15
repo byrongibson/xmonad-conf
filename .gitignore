@@ -59,6 +59,7 @@ DEADJOE
 *.log
 *.sql
 *.sqlite
+*.sqlite3
 
 # # OS generated files #
 # ######################
@@ -74,7 +75,7 @@ cabal-dev
 dist
 .static-cache
 static/tmp
-*.sqlite3
+*.errors
 
 # # Document Types #
 # ######################
