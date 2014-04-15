@@ -22,9 +22,10 @@ myManageHook = composeAll . concat $
 myLayouts = gaps [(U, 24)] $ layoutHook gnomeConfig
  
 main = xmonad $ gnomeConfig
-  { workspaces = ["1:chrome","2:emacs","3:console","4:server","5:mail","6:ff","7","8","9","0","-","="]
+  { workspaces = ["1","2","3","4","5","6","7","8","9","0","-","="]
   , manageHook = myManageHook <+> manageHook gnomeConfig
-  , modMask = mod4Mask
+  -- mod1Mask = Left Alt, mod3Mask = Right Alt, mod4Mask = Windows Key
+  , modMask = mod1Mask
   , layoutHook = myLayouts
   , terminal = "urxvt"
   , focusFollowsMouse = False

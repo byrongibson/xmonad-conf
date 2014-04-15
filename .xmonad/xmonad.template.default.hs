@@ -1,5 +1,5 @@
 --
--- xmonad example config file.
+-- xmonad example config file, showing all default xmonad settings.
 --
 -- A template showing all available configuration hooks,
 -- and how to override the defaults in your own xmonad.hs conf file.
