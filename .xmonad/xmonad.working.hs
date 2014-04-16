@@ -11,8 +11,6 @@ import XMonad.Util.EZConfig
 --import XMonad.Util.EZConfig (additionalKeys)
 import XMonad.Layout.Gaps
 import Data.List
-
-
  
 myManageHook = composeAll . concat $
   [ [ className =? "Firefox-bin" --> doShift "6:ff" ]
