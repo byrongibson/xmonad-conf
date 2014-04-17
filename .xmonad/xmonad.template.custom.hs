@@ -132,13 +132,14 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- , ((modm              , xK_b     ), sendMessage ToggleStruts)
 
     -- Quit xmonad
-    , ((modm .|. shiftMask, xK_q     ), io (exitWith ExitSuccess))
+    , ((modm .|. shiftMask, xK_z     ), io (exitWith ExitSuccess))
 
     -- Restart xmonad
-    , ((modm              , xK_q     ), spawn "xmonad --recompile; xmonad --restart")
+    , ((modm              , xK_z     ), spawn "xmonad --recompile; xmonad --restart")
 
     -- Run xmessage with a summary of the default keybindings (useful for beginners)
-    , ((modMask .|. shiftMask, xK_slash ), spawn ("echo \"" ++ help ++ "\" | xmessage -file -"))
+    -- use `run-help` in zsh, `help` in bash. Or alias run-help to help in .zshrc
+    --, ((modMask .|. shiftMask, xK_slash ), spawn ("echo \"" ++ help ++ "\" | xmessage -file -"))
     ]
     ++
 
@@ -190,22 +191,21 @@ myMouseBindings (XConfig {XMonad.modMask = modm}) = M.fromList $
 -- The available layouts.  Note that each layout is separated by |||,
 -- which denotes layout choice.
 --
-myLayout = tiled ||| Mirror tiled ||| Full
-  where
+--myLayout = tiled ||| Mirror tiled ||| Full
+--  where
      -- default tiling algorithm partitions the screen into two panes
-     tiled   = Tall nmaster delta ratio
+--     tiled   = Tall nmaster delta ratio
 
      -- The default number of windows in the master pane
-     nmaster = 1
+--     nmaster = 1
 
      -- Default proportion of screen occupied by master pane
-     ratio   = 1/2
+--     ratio   = 1/2
 
      -- Percent of screen to increment by when resizing panes
-     delta   = 3/100
+--     delta   = 3/100
 
---myLayouts = gaps [(U, 24)] $ layoutHook gnomeConfig
---myLayouts = avoidStruts $ layoutHook gnomeConfig
+myLayout = avoidStruts $ layoutHook gnomeConfig
 
 
 ------------------------------------------------------------------------
