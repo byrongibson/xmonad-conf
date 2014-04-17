@@ -8,17 +8,14 @@
 --
 
 import XMonad
+import Data.List
 import Data.Monoid
 import System.Exit
-import XMonad.Util.Run
 import XMonad.Config.Gnome
-import XMonad.Hooks.ICCCMFocus
---import XMonad.Config.Desktop
-import XMonad.Hooks.ManageDocks
+import XMonad.Util.Run
 import XMonad.Util.EZConfig
---import XMonad.Util.EZConfig (additionalKeys)
-import XMonad.Layout.Gaps
-import Data.List
+import XMonad.Hooks.ICCCMFocus
+import XMonad.Hooks.ManageDocks
 
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M

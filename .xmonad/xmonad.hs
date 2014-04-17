@@ -2,15 +2,14 @@
 -- https://gist.github.com/kofno/1300108
  
 import XMonad
-import XMonad.Util.Run
-import XMonad.Config.Gnome
-import XMonad.Hooks.ICCCMFocus
---import XMonad.Config.Desktop
-import XMonad.Hooks.ManageDocks
-import XMonad.Util.EZConfig
---import XMonad.Util.EZConfig (additionalKeys)
-import XMonad.Layout.Gaps
 import Data.List
+import Data.Monoid
+import System.Exit
+import XMonad.Config.Gnome
+import XMonad.Util.Run
+import XMonad.Util.EZConfig
+import XMonad.Hooks.ICCCMFocus
+import XMonad.Hooks.ManageDocks
  
 myManageHook = composeAll . concat $
   [ [ className =? "Firefox-bin" --> doShift "6:ff" ]
