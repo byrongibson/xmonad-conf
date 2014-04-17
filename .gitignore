@@ -76,6 +76,7 @@ dist
 .static-cache
 static/tmp
 *.errors
+xmonad-x86_64-linux
 
 # # Document Types #
 # ######################
