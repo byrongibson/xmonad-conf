@@ -2,4 +2,8 @@
 
 1.  remap restart key
 2.  remap alt-tab to swap workspaces instead of tiles
-3.  
+3. 
+
+
+http://www.reddit.com/r/xmonad/comments/1scs4i/what_are_some_low_hanging_fruit_improvements_i/
+ 
