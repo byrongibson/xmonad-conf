@@ -1,5 +1,8 @@
 # XMonad Config
 
+All of the following superseded by new xmonad config:
+https://github.com/byrongibson/xmonad-ubuntu-conf
+
 #### Components 
 
 * Ubuntu 12.04 x64 Desktop
